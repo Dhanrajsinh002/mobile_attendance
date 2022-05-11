@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context=".StudentAttendance"
+    android:background="@drawable/layout_background">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableRow>
+            <EditText
+                android:id="@+id/sroll"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="Student Roll No."
+                android:textSize="25sp"
+                android:padding="10dp"
+                android:background="@drawable/bg_layout"/>
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/null3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="10sp" />
+
+        </TableRow>
+
+        <TableRow>
+            <EditText
+                android:id="@+id/sname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="Student Name"
+                android:textSize="25sp"
+                android:padding="10dp"
+                android:background="@drawable/bg_layout"/>
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/null4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="10sp" />
+
+        </TableRow>
+
+        <TableRow>
+            <EditText
+                android:id="@+id/sat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:enabled="false"
+                android:hint="Attendance"
+                android:textSize="25sp"
+                android:padding="10dp"
+                android:background="@drawable/bg_layout"/>
+        </TableRow>
+
+        <TableRow>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="25sp"
+                android:visibility="invisible" />
+
+        </TableRow>
+
+        <TableRow>
+            <Button
+                android:id="@+id/recprevious"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Previous"
+                android:textSize="25sp"
+                android:background="@drawable/btn_corner"/>
+
+            <Button
+                android:id="@+id/recnext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Next"
+                android:textSize="25sp"
+                android:background="@drawable/btn_corner"/>
+        </TableRow>
+
+        <TableRow>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="5sp"
+                android:visibility="invisible" />
+
+        </TableRow>
+
+        <TableRow>
+            <Button
+                android:id="@+id/absent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Absent"
+                android:textSize="25sp"
+                android:background="@drawable/btn_corner"/>
+        </TableRow>
+
+        <TableRow>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="5sp"
+                android:visibility="invisible" />
+
+        </TableRow>
+
+        <TableRow>
+            <Button
+                android:id="@+id/present"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Present"
+                android:textSize="25sp"
+                android:background="@drawable/btn_corner"/>
+        </TableRow>
+
+        <TableRow>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="5sp"
+                android:visibility="invisible" />
+
+        </TableRow>
+
+        <TableRow>
+            <Button
+                android:id="@+id/leave"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Leave"
+                android:textSize="25sp"
+                android:background="@drawable/btn_corner"/>
+        </TableRow>
+
+    </TableLayout>
+
+</RelativeLayout>

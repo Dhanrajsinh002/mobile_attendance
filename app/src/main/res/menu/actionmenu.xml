@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/takesat"
+        android:title="Take Student Attendance"/>
+
+    <item android:id="@+id/addsdata"
+        android:title="Add Student data" />
+
+    <item android:id="@+id/updtsdata"
+        android:title="Update Student Data" />
+
+    <item android:id="@+id/dltsdata"
+        android:title="Delete Student Data" />
+
+    <item android:id="@+id/expfile"
+        android:title="Export Data File"/>
+
+    <item android:id="@+id/about"
+        android:title="About" />
+</menu>

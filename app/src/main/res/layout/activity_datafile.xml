@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/layout_background"
+    tools:context=".datafile"
+    android:padding="10dp">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableRow>
+            <EditText
+                android:id="@+id/expsroll"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="Student Roll No."
+                android:textSize="25sp"
+                android:padding="10dp"
+                android:background="@drawable/bg_layout"
+                android:inputType="number" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/null5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="10sp" />
+
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:id="@+id/null0"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="25sp"
+                android:textColor="@color/Black" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/null3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="25sp" />
+
+        </TableRow>
+
+        <TableRow>
+            <Button
+                android:id="@+id/export"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="export to file"
+                android:textSize="18.4sp"
+                android:background="@drawable/btn_corner"/>
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/null4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="25sp" />
+
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:id="@+id/expabt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="You can find your exported file in
+                File Explorer -> Android -> Data -> com.example.mobileattendance -> files -> your file(.txt)"
+                android:textSize="23sp"
+                android:textColor="@color/Black"
+                android:gravity="center_horizontal"
+                android:padding="10dp"
+                android:background="@drawable/bg_layout"/>
+        </TableRow>
+
+    </TableLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
